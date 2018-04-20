@@ -1,0 +1,684 @@
+/*general*/
+
+body {
+  font-family: adobe-caslon-pro, serif;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+
+  background-color: #d8c2d5;
+}
+
+
+
+a{
+  text-decoration: none;
+  transition: all 0.2s;
+  transform-origin: center;
+  color: #183432;
+}
+
+a:hover{
+
+}
+
+a:active {
+
+}
+
+
+/* end general */
+
+/* header */
+
+.namebox{
+  width: 170px;
+  height: auto;
+
+  position: absolute;
+  left: 225px;
+  top: 71vh;
+}
+
+.headerNav{
+  position: fixed;
+  width: 100%;
+  padding-top: 16px;
+  z-index: 100;
+}
+
+.logo{
+  width: auto;
+  height: 50px;
+  fill: #95272B;
+  transition: 0.1s all;
+}
+
+.main-pg-logo{
+  height: 62px;
+}
+
+.logobox{
+  position: absolute;
+  left: 100px;
+
+  cursor: pointer;
+
+  transition: 0.1s all linear;
+
+
+}
+
+.main-pg-logobox{
+  left: 225px;
+  top: 23.5vh;
+}
+
+.navbox{
+  position: absolute;
+  right: 100px;
+  width: auto;
+}
+
+.main-pg-nav{
+  right: 310px;
+  top: 23vh;
+
+  width: 80px;
+
+}
+
+
+.nav-menu{
+  margin-top: 4px;
+  margin-left: 15px;
+
+  width: auto;
+  height: 50px;
+  fill:#95272B;
+
+  cursor: pointer;
+
+  /* transition: 0.1s all; */
+
+}
+
+.nav-menu-1pg{
+  height: 80px;
+}
+
+.clicked{
+  fill: #88b186;
+}
+
+.logobox:hover .logo,.nav-menu:hover{
+  fill: #88b186;
+}
+
+
+
+/* end header */
+
+/* main 1pg */
+#pg1{
+  display: block;
+  vertical-align: middle;
+}
+
+.main-hero-img{
+  position: absolute;
+  width: 600px;
+  height: 400px;
+
+  top: 50vh;
+  left: 50%;
+
+  margin-left: -300px;
+  margin-top: -200px;
+
+  background-image: url("../imgs/mainpage/main_pg1_1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+/* end main 1pg */
+
+/* main 2pg */
+.container{
+
+}
+.main-pg2-img{
+  width: auto;
+  height: 600px;
+  position: relative;
+  left: 50%;
+
+  display: table;
+
+  margin-bottom: 8vh;
+}
+
+.m-pg2-img-1{
+  margin-left: -300px;
+}
+.m-pg2-img-2{
+  margin-left: -400px;
+}
+.m-pg2-img-3{
+  margin-left: -225px;
+}
+/* end main 2pg */
+
+/* hover-img */
+.main-hover-imgs{
+  position: fixed;
+  z-index: 12;
+
+  width: 100%;
+  height: 100vh
+}
+
+.hover-development{
+  background-image: url("../imgs/mainpage/hover_development.png");
+  background-position: center;
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+
+.hover-zoo{
+  background-image: url("../imgs/mainpage/hover_zoo_02.png");
+  background-position: center;
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+
+.hover-polaroid{
+  background-image: url("../imgs/mainpage/hover_hong037.png");
+  background-position: center;
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+
+.hover-aboutme{
+  background-image: url("../imgs/mainpage/hover_aboutme.png");
+  background-position: center;
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+/* end hover-img */
+
+/* main-hover-imgs-link */
+
+.main-hover-imgs-link{
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 80;
+}
+
+.mhil-img{
+  width: 200px;
+  height: 300px;
+  position: absolute;
+
+}
+
+.mhil-img1{
+  top: 8%;
+  right: 12%;
+  opacity: 0;
+}
+
+.mhil-img2{
+  top: 2%;
+  right: 8%;
+
+  opacity: 0;
+}
+
+.mhil-i2-1{
+  top: 0%;
+  left: 2%;
+}
+
+.mhil-i2-2{
+  bottom: 2%;
+  left: 2%;
+}
+
+.mhil-img3{
+  opacity: 0;
+}
+
+.mhil-i3-1{
+  top: -12%;
+  left: 8%;
+}
+
+.mhil-i3-2{
+  top: -12%;
+  right: 18%;
+}
+
+.mhil-img4{
+  top: 20%;
+  left: -6%;
+
+  opacity: 0;
+}
+
+/* img-hover-ori */
+.img-hover-ori{
+  position: absolute;
+}
+.link-img-hover{
+  opacity: 0;
+}
+.link-img-ori{
+  opacity: 1;
+}
+.mhil-img:hover .link-img-hover{
+  opacity: 1;
+}
+.mhil-img:hover .link-img-ori{
+  opacity: 0;
+}
+
+
+.lihoverori-1{
+  width: 20vw
+}
+
+.lihoverori-2a{
+  width: 400px
+}
+.lihoverori-2b{
+  padding-left: 120px;
+  width: 240px;
+}
+
+.lihoverori-2c{
+  width: 430px;
+}
+.lihoverori-2d{
+  width: 360px;
+}
+
+.lihoverori-3a{
+  width: 300px;
+}
+
+.lihoverori-3c{
+  width: 500px;
+}
+.lihoverori-3d{
+  width: 420px;
+}
+
+.lihoverori-4a{
+  width: 380px;
+}
+.lihoverori-4b{
+  width: 370px;
+}
+
+
+/* end img-hover-ori */
+
+
+/* end main-hover-imgs-link */
+
+/* polaroid */
+.img-box{
+  width: 12.5vw;
+  height: 12.5vw;
+  position: relative;
+  float: left;
+
+  transition: 0.4s all;
+}
+.img-hover{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  transition: 0.4s all;
+}
+.img-polaroid{
+  width: auto;
+  height: 118%;
+  transform: translate(-10px,-10px);
+}
+
+.img-p-1{
+
+}
+.img-p-2{
+
+}
+
+.img-p-4{
+
+  transform: translate(-124px,-24px);
+}
+
+.img-p-7{
+  height: 154%;
+  transform: translate(-3px,-24px);
+}
+.img-p-12{
+  transform: translate(-131px,-24px);
+}
+
+.img-p-39{
+  transform: translate(-51px,-24px);
+}
+
+.img-box:hover{
+  z-index: 100;
+
+}
+.img-box:hover .img-hover{
+  transform: scale(1.2);
+  z-index: 10;
+}
+
+/* end-polaroid */
+
+/* development */
+.development-img{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 80vh;
+
+  top: 0px;
+
+}
+
+.development-img:hover{
+  opacity: 1;
+
+}
+
+.development-img-box{
+  width: 10000px;
+  transform: translateX(900px);
+  animation: appearprss 1s forwards;
+}
+@keyframes appearprss {
+  0%{
+    transform: translateX(900px);
+  }
+  100%{
+    transform: translateX(-200px);
+  }
+
+}
+
+
+.di1{
+  left: 0px;
+  overflow: scroll;
+}
+
+.di2{
+  left: 33.33%;
+}
+.di3{
+  left: 0;
+}
+.di-img-1{
+  position: relative;
+  float: left;
+  height: 80vh;
+
+}
+
+.development-img-box3{
+  position: absolute;
+  bottom: 400px;
+}
+
+.di-img-3{
+  position: absolute;
+
+  height: 480px;
+
+  transition: 0.3s all;
+  cursor: pointer;
+
+  z-index: 10;
+}
+
+
+
+.di-img-3:hover{
+  transform: scale(1.1);
+}
+
+.di-img-31{
+  position: absolute;
+
+  z-index: 8;
+  transition: 0.3s all;
+  height: 520px;
+}
+
+.di31{
+  left: 20px;
+}
+.di311{
+  left: 180px;
+  top: -70px;
+  opacity: 0;
+}
+.di32{
+  left: 200px;
+}
+.di312{
+  left: 340px;
+  top: -70px;
+  opacity: 0;
+}
+.di33{
+  left: 380px;
+}
+.di313{
+  left: 530px;
+  top: -70px;
+  opacity: 0;
+}
+.di34{
+  left: 540px;
+}
+.di314{
+  left: 100px;
+  top: -50px;
+  opacity: 0;
+}
+.di35{
+  left: 840px;
+}
+.di315{
+  left: 360px;
+  top: -50px;
+
+  opacity: 0;
+}
+.di36{
+  left: 1040px;
+}
+.di316{
+  left: 620px;
+  top: -50px;
+
+  opacity: 0;
+}
+
+
+/* end development */
+
+
+/* zoo */
+.img-zoo-box{
+  position: relative;
+  left: 100px;
+  top: 15vh;
+
+  width: 1080px;
+  height: 520px;
+
+
+  overflow: scroll;
+}
+
+.img-zoo-box-inside{
+  position: relative;
+
+  width: 30130px;
+  height: 520px;
+
+}
+.img-zoo{
+  position: relative;
+  float: left;
+  height: 100%;
+  margin: 0;
+}
+
+
+/* end zoo */
+
+/* about */
+.about-section{
+  position: relative;
+  z-index: 10;
+}
+
+.about-page{
+  padding: 120px 100px 100px 100px;
+}
+
+#body-title{
+  color: #93272d;
+  padding-left: 16px;
+}
+
+.bodytext{
+  color: #93272d;
+  padding-left: 40%;
+  padding-right: 12%;
+
+  z-index: 1;
+}
+
+.duck-img{
+  position: absolute;
+  top: 0;
+  right: 0px;
+  width: 300px;
+}
+
+/* end about */
+
+
+
+/*header*/
+
+
+/*end/*/
+
+/*1stindex*/
+
+/*end1stindex*/
+
+
+/*media*/
+
+
+li{
+  list-style-type: none;
+}
+
+#page{
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 100%;
+
+  padding: 0;
+}
+
+#page-2{
+  position: relative;
+  box-sizing: border-box;
+  z-index: 10;
+}
+
+.col-sm-6{
+  float: left;
+  width: 50%;
+  position: relative;
+  min-height: 1px;
+}
+
+.col-sm-7{
+  float: left;
+  position: relative;
+  min-height: 1px;
+}
+
+.full-screen{
+  height: 100vh;
+  width: 100%;
+}
+
+.col-sm-40{
+  width: 40%;
+  position: relative;
+  float: left;
+}
+.col-sm-60{
+  width: 60%;
+  position: relative;
+  float: left;
+}
+
+/* contact */
+
+#contact-section{
+  height: 540px;
+  background-color: white;
+}
+
+.fish-img{
+  transform-origin: top middle;
+  padding-left:120px;
+  height: 540px;
+}
+.copyright{
+  padding-left: 20px;
+  margin-top: 130px;
+  width: 620px;
+
+}
+
+/* end contact */
+
+.footer{
+
+}
+
+
+
+
+@media screen and (min-width: 900px) {
+}
+@media screen and (min-width: 1200px) {
+}
+@media screen and (min-width: 1800px) {
+
+}
